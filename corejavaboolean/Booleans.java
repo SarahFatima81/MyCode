@@ -11,10 +11,10 @@ public class Booleans {
 		// Less than/equal to      <=
 		// Not equal to            !=
 		
-		boolean a = (5 == 5);
+		boolean a = (6 == 6);
 			System.out.println(a);
 			
-		boolean x = (12 - 5 <= 4);
+		boolean x = (12 - 6 <= 4);
 		    System.out.println(x);
 		
 		

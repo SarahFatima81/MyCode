@@ -32,7 +32,7 @@ public class NesForLoopArrayExample {
             int ageHeightDetails1[][] = {{20, 6}, {35, 7}, {18, 5}};
             
             for(int i = 0; i < names.length; i++){
-            	System.out.println(names[i]+ "  "+ "Age"+"\t"+"Height");
+            	System.out.println(names[i]+ "\t"+ "Age"+"\t"+"Height");
             	for(int j = 0; j < ageHeightDetails[i].length; j++){
             		System.out.print("\t"+ ageHeightDetails1[i][j]+ "  ");
             	}

@@ -4,17 +4,17 @@ public class EnhancedForLoop {
 
 	public static void main(String[] args) {
 		
-		double values[] = {5, 10, 2.5, 20};
-		double total = 0;
+		int values[] = {10,20,15,25, 16,60,100};
+		int total = 0;
 		
-		for(double element: values){
+		for(int element: values){
 			total += element; 
 			
 		}
 		
 		    System.out.println(total);
 		    
-		 double average = 0;
+		 int average = 0;
 		 
 		 if (values.length > 0){
 			 average = total/values.length;

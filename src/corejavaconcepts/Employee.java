@@ -9,21 +9,21 @@ public class Employee {
 
 	public static void main(String[] args) {
 		
-		Employee michelle = new Employee();
-		michelle.firstName = "Michelle";
-		michelle.empId = 111;
-		michelle.gender = 'F';
-		michelle.age = 25;
+		Employee one = new Employee();
+		one.firstName = "Michelle";
+		one.empId = 111;
+		one.gender = 'F';
+		one.age = 25;
 		
-		Employee david = new Employee();
-		david.firstName = "David";
-		david.empId = 122;
-		david.gender = 'M';
-		david.age = 32;
+		Employee two = new Employee();
+		two.firstName = "David";
+		two.empId = 122;
+		two.gender = 'M';
+		two.age = 32;
 		
-		System.out.println("Employee Name"+"\t\t"+"ID"+"\t\t"+"Gender"+"\t\t"+"Age");
-		System.out.println(michelle.firstName + "\t\t" + michelle.empId + "\t\t" + michelle.gender + "\t\t" + michelle.age);
-		System.out.println(david.firstName + "\t\t\t" + david.empId + "\t\t" + david.gender + "\t\t" + david.age);
+		System.out.println("Employee"+"\t\t"+"ID"+"\t\t"+"Gender"+"\t\t"+"Age");
+		System.out.println(one.firstName + "\t\t" + one.empId + "\t\t" + one.gender + "\t\t" + one.age);
+		System.out.println(two.firstName + "\t\t\t" + two.empId + "\t\t" + two.gender + "\t\t" + two.age);
 
 	}
 

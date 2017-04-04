@@ -26,10 +26,7 @@ public class CompanyOne {
 				    gend = input.next();
 				    System.out.println("Enter the Employee Age: "); 
 				    ageX = input.nextInt();	
-					
-						
-					
-									
+										
 					employees[i] = new Employee();
 					employees[i].setNumber(num);
 					employees[i].setFirstName(name);

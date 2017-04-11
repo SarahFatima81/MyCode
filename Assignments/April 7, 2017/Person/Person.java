@@ -80,7 +80,7 @@ public void setPet(Pet pet) {
 public String toString()
 {
 	String per = this.fname + " " + this.lname + "\n" + this.gender + "\n" + this.address + "\n" + "-----------------" + "\n";
-	String p = this.pet + "\n";
+	String p = this.pet + "\n" + "----------------------" + "\n";
 	if(persons != null)
 	{for(int i=0;i<persons.length; i++)
 	{
@@ -91,6 +91,12 @@ public String toString()
 
 	return per + p;
 }
-   
+   public boolean isRich(){
+	   if(this.address.address2.equals("Banjara Hills") && pet != null){
+		   return true;
+		   
+	   }
+	      return false;
+   }
 }
   

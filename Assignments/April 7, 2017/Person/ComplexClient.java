@@ -28,7 +28,12 @@ public class ComplexClient {
 		ambani.setPersons(persons);
 	
 		System.out.println(ambani);
-		
+	    
+		if(true){
+		System.out.println("Ambanis are rich.");
+	   }else{
+		System.out.println("Ambanis are not as rich.");
+	}
 	}
 
 }

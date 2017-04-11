@@ -9,10 +9,8 @@ public class ComplexClient {
 		
 		ambani.setAddress(address);
 		
-		Pet dog = new Pet("Pet\nRocky", System.getProperty("line.separator") + "Brown", System.getProperty("line.separator") + "Alsation dog");
-		ambani.setPet(dog);
 		
-		Person ambani1 = new Person("Neetu","Ambani", 'F');
+	    Person ambani1 = new Person("Neetu","Ambani", 'F');
 		ambani1.relationship = "Wife";
 		
 		
@@ -26,6 +24,9 @@ public class ComplexClient {
 		
         Person persons[] = {ambani1,ambani2,ambani3};
 		ambani.setPersons(persons);
+		
+		Pet dog = new Pet("Pet\nRocky", System.getProperty("line.separator") + "Brown", System.getProperty("line.separator") + "Alsation dog");
+		ambani.setPet(dog);
 	
 		System.out.println(ambani);
 	    

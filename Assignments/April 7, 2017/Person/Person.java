@@ -7,7 +7,6 @@ public class Person {
    Address address;
    String relationship;
    Person persons[];
-   String pets;
    Pet pet;
    
    

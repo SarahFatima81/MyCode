@@ -5,14 +5,12 @@ public class ComplexClient {
 	public static void main(String[] args) {
 		Person ambani = new Person("Anil", "Ambani",'M');
 		
-		Address address = new Address("Ambani Villa", System.getProperty("line.separator") + "Banjara Hills", System.getProperty("line.separator") + "Hyderabad");
+		Address address = new Address("Ambani Villa", System.getProperty("line.separator") + "Ban Hills", System.getProperty("line.separator") + "Hyderabad");
 		
 		ambani.setAddress(address);
 		
-		Pet dog = new Pet("Pet\nRocky", System.getProperty("line.separator") + "Brown", System.getProperty("line.separator") + "Alsation dog");
-		ambani.setPet(dog);
 		
-		Person ambani1 = new Person("Neetu","Ambani", 'F');
+	    Person ambani1 = new Person("Neetu","Ambani", 'F');
 		ambani1.relationship = "Wife";
 		
 		
@@ -26,10 +24,13 @@ public class ComplexClient {
 		
         Person persons[] = {ambani1,ambani2,ambani3};
 		ambani.setPersons(persons);
+		
+		Pet dog = new Pet("Pet\nRocky", System.getProperty("line.separator") + "Brown", System.getProperty("line.separator") + "Alsation dog");
+		ambani.setPet(dog);
 	
 		System.out.println(ambani);
 	    
-		if(true){
+		if(ambani.isRich()){
 		System.out.println("Ambanis are rich.");
 	   }else{
 		System.out.println("Ambanis are not as rich.");

@@ -5,7 +5,7 @@ public class ComplexClient {
 	public static void main(String[] args) {
 		Person ambani = new Person("Anil", "Ambani",'M');
 		
-		Address address = new Address("Ambani Villa", System.getProperty("line.separator") + "Banjara Hills", System.getProperty("line.separator") + "Hyderabad");
+		Address address = new Address("Ambani Villa", System.getProperty("line.separator") + "Ban Hills", System.getProperty("line.separator") + "Hyderabad");
 		
 		ambani.setAddress(address);
 		
@@ -30,7 +30,7 @@ public class ComplexClient {
 	
 		System.out.println(ambani);
 	    
-		if(true){
+		if(ambani.isRich()){
 		System.out.println("Ambanis are rich.");
 	   }else{
 		System.out.println("Ambanis are not as rich.");

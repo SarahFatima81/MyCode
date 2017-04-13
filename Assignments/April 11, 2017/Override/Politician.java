@@ -24,13 +24,13 @@ public class Politician extends BadPerson {
 		this.party = party;
 	}
 	public void printPoliticianDetails(){
-		System.out.println("Name: " + super.getFname() + super.getLname() + "\n" + "Gender: " + super.getGender() + "\n" + "Location: " + super.getLocation() + "\n" + "Reputation: " + getBdreput()  + "\n" + "Position: " + (getPosition() + "\n" + "Party: " + getParty() + "\n" + "-----------------------------------------------"));
+		System.out.println(super.toString() + "\n" + "Reputation: " + getBdreput()  + "\n" + "Position: " + (getPosition() + "\n" + "Party: " + getParty() + "\n" + "-----------------------------------------------"));
 
 
 
 	}
-
-
+       
+       
 }
 
 

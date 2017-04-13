@@ -24,7 +24,7 @@ public class Student extends GoodPerson {
 	}
 
 	public void printStudentDetails(){
-		System.out.println("Name: " + super.getFname() + super.getLname() + "\n" + "Gender: " + super.getGender() + "\n" + "Location: " + super.getLocation() + "\n" + "Reputation: " + getGdreput()  + "\n" + "University: " + (getUniversity() + "\n" + "Degree: " + getMajor() + "\n" + "-----------------------------------------------"));
+		System.out.println(super.toString() + "\n" + "Reputation: " + getGdreput()  + "\n" + "University: " + getUniversity() + "\n" + "Degree: " + getMajor() + "\n" + "-----------------------------------------------");
 
 
 

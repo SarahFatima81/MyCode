@@ -24,7 +24,7 @@ public class Teacher extends GoodPerson{
 	}
 
 	public void printTeacherDetails(){
-		System.out.println("Name: " + super.getFname() + super.getLname() + "\n" + "Gender: " + getGender() + "\n" + "Location: " + super.getLocation() + "\n" + "Reputation: " + super.getGdreput()  + "\n" + "School: " + (getSchool() + "\n" + "Subject: " + getSubject() + "\n" + "-----------------------------------------------"));
+		System.out.println(super.toString() + "\n" + "Reputation: " + getGdreput()  + "\n" + "School: " + (getSchool() + "\n" + "Subject: " + getSubject() + "\n" + "-----------------------------------------------"));
 
 
 

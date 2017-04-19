@@ -23,7 +23,7 @@ public class Teacher extends GoodPerson{
 		this.subject = subject;
 	}
 
-	public void printTeacherDetails(){
+	public void printPersDetails(){
 		System.out.println(super.toString() + "\n" + "Reputation: " + getGdreput()  + "\n" + "School: " + (getSchool() + "\n" + "Subject: " + getSubject() + "\n" + "-----------------------------------------------"));
 
 

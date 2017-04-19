@@ -24,7 +24,7 @@ public class Manager extends BadPerson {
 	}
 
 
-	public void printManagerDetails(){
+	public void printPersDetails(){
 		System.out.println(super.toString() + "\n" + "Reputation: " + getBdreput()  + "\n" + "Company: " + (getCompany() + "\n" + "Education: " + getEducation() + "\n" + "-----------------------------------------------"));
 
 

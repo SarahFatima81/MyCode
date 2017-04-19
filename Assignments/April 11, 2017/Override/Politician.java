@@ -23,7 +23,7 @@ public class Politician extends BadPerson {
 	public void setParty(String party) {
 		this.party = party;
 	}
-	public void printPoliticianDetails(){
+	public void printPersDetails(){
 		System.out.println(super.toString() + "\n" + "Reputation: " + getBdreput()  + "\n" + "Position: " + (getPosition() + "\n" + "Party: " + getParty() + "\n" + "-----------------------------------------------"));
 
 

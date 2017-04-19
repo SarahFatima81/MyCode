@@ -51,7 +51,12 @@ public class Person {
 	public String toString(){
  	   String per = "Name: " + fname + lname + "\n" + "Gender: " + gender + "\n" + "Location: " + location;
  	   return per;
-    }
+ 	   
+ 	}
+	
+	 public void printPersDetails(){
+		 System.out.println(toString());
+	 }
 }
 
 

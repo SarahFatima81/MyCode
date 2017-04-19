@@ -23,7 +23,7 @@ public class Student extends GoodPerson {
 		this.major = major;
 	}
 
-	public void printStudentDetails(){
+	public void printPersDetails(){
 		System.out.println(super.toString() + "\n" + "Reputation: " + getGdreput()  + "\n" + "University: " + getUniversity() + "\n" + "Degree: " + getMajor() + "\n" + "-----------------------------------------------");
 
 

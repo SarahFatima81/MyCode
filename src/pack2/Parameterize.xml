@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Test">
+<test name = "Smoke Test">
+<parameter name = "adminUserID" value = "abcd"/>
+
+
+<classes>
+<class name = "pack2.Annotations"/>
+
+</classes>
+
+</test>
+</suite>
